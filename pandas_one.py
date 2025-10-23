@@ -25,3 +25,6 @@ print(df[df['Age'] > 28])
 df['Country'] = 'USA'
 print("\nDataFrame after adding a new column:")
 print(df)
+
+print("\n access age column")
+print(df['Age'])
